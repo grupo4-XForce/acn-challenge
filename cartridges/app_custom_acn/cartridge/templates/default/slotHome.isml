@@ -1,0 +1,4 @@
+<isdecorate template="meudecorator">
+<h1>My Main template</h1>
+<isslot id="meudecorator-slot" description="Minha footer" context="global"/>
+</isdecorate>

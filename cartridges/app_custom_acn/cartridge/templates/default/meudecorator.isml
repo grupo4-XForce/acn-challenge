@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="${require('dw/util/Locale').getLocale(request.getLocale()).getLanguage()}">
+    <head>
+         <link rel="stylesheet" href="${URLUtils.staticURL('/css/global.css')}"/>
+    </head>
+    <body>
+        <div class="background-color:blue"><!--meuestilo-->
+            <isreplace/>
+        </div>
+    </body>
+</html>
