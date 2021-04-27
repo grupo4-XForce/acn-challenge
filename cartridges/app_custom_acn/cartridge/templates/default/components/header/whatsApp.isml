@@ -1,0 +1,5 @@
+<div>
+  <a href="https://api.whatsapp.com/send?phone=5521988286660" target="_blank">	 
+  <span><i class="fa fa-whatsapp"></i></span> ${Resource.msg('whatsapp.contact.phone', 'whatsapp', null)} </a>
+  <p>${Resource.msg('whatsapp.schedule', 'whatsapp', null)}</p>
+</div>

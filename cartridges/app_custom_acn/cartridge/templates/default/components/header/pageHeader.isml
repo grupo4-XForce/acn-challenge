@@ -43,8 +43,9 @@
                                 <isinclude url="${URLUtils.url('Cart-MiniCart')}" />
                             </div>
                             <div class="minicart">
-                                 <a href="https://api.whatsapp.com/send?phone=5521988286660" target="_blank">	 
-                                 <span><i class="fa fa-whatsapp"></i></span> (21) 9999-2222 </a>
+                            <isinclude template="components/header/whatsApp" />
+                                 <iscomment> <a href="https://api.whatsapp.com/send?phone=5521988286660" target="_blank">	 
+                                 <span><i class="fa fa-whatsapp"></i></span> (21) 9999-2222 </a> </iscomment>
                             </div>
 
                         </div>
