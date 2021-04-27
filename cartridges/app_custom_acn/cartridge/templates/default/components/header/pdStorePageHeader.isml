@@ -1,20 +1,9 @@
 <header>
     <isinclude template="/components/header/skipNav" />
-    <div class="header-banner slide-up d-none">
-        <div class="container">
-            <div class="d-flex justify-content-between">
-                <div></div>
-                <div class="content">
-                    <isslot id="header-banner-m" description="Slot above the site header" context="global" />
-                </div>
-                <div class="close-button">
-                    <button type="button" class="close" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
+    <isif condition="${pdict.regions.headerbanner}">
+        <!-- Campaign Banner Component renders here -->
+        <isprint value="${pdict.regions.headerbanner.render()}" encoding="off"/>
+    </isif>
     <nav role="navigation">
         <div class="header container">
             <div class="row">
@@ -42,10 +31,6 @@
                             <div class="minicart" data-action-url="${URLUtils.url('Cart-MiniCartShow')}">
                                 <isinclude url="${URLUtils.url('Cart-MiniCart')}" />
                             </div>
-                            <div class="minicart">
-                            <isinclude template="components/header/whatsApp" />
-                            </div>
-
                         </div>
                     </div>
                 </div>
