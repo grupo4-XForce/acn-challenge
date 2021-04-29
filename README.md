@@ -12,9 +12,9 @@ Cadastro de categorias e produtos via xml.<br>
 Cadastro de locales, inventory e pricebook via xml.<br>
 Cadastro de métodos de pagamento via xml.<br>
 Funcionalidade de localização de stores físicas via API GoogleMaps.<br>
-Funcionalidade de contato via WhatsApp usando API do WhatsApp.
-Contact Us com email para cliente e operador do SAC.
-Funcionalidade de recomendação via slots.
+Funcionalidade de contato via WhatsApp usando API do WhatsApp.<br>
+Contact Us com email para cliente e operador do SAC.<br>
+Funcionalidade de recomendação via slots.<br><br>
 
 
 ## Grupo
