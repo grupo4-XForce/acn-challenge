@@ -1,0 +1,115 @@
+<isdecorate template="/common/layout/page">
+<iscomment> <div class="row">
+    ${Resource.msg('label.profile.title','forms',null)}
+</div> </iscomment>
+ <isscript>
+        var assets = require('*/cartridge/scripts/assets');
+    </isscript>
+<form
+    action="${pdict.actionUrl}"
+    class="contactForm-form"
+    method="POST"
+    <isprint value="${pdict.contactForm.attributes}" encoding="off" />><!--${pdict.contactForm.attributes}" id do controler contact.js-->
+    <!-- Name -->
+    <div class="row">
+        <!-- Full Name -->
+        <div class="col-6">
+            <div class="form-group
+                ${pdict.contactForm.firstname.mandatory === true ? 'required' : ''}">
+                <label class="form-control-label" for="firstname">
+                      ${Resource.msg('label.profile.firstname','forms',null)}
+                </label>
+                <input type="text" class="form-control" id="firstname"
+                    <isprint value="${pdict.contactForm.firstname.attributes}" encoding="off" />
+                    autocomplete="given-name">
+                <div class="invalid-feedback"></div>
+            </div>
+        
+    
+    <!-- Phone Number 
+    <div class="form-group
+        ${pdict.contactForm.phone.mandatory === true ? 'required' : ''}">
+        <label class="form-control-label" for="phone">
+           ${Resource.msg('label.profile.phone','forms',null)}
+        </label>
+        <input type="tel" class="form-control" id="phone"
+            <isprint value="${pdict.contactForm.phone.attributes}" encoding="off" />
+            autocomplete="tel"/>
+        <div class="invalid-feedback"></div>
+    </div>-->
+    <!-- Email -->
+    <div class="form-group
+        ${pdict.contactForm.email.mandatory === true ? 'required' : ''}
+        ${pdict.contactForm.email.htmlName}" >
+        <label class="form-control-label" for="email">
+            ${Resource.msg('label.profile.email','forms',null)}
+        </label>
+        <input type="email" class="form-control email" id="email"
+            <isprint value="${pdict.contactForm.email.attributes}" encoding="off"/>
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>
+    </div>
+    <!--LastName-->
+     <div class="form-group
+        ${pdict.contactForm.lastname.mandatory === true ? 'required' : ''}
+        ${pdict.contactForm.lastname.htmlName}" >
+        <label class="form-control-label" for="lastname">
+            ${Resource.msg('label.profile.lastname','forms',null)}
+        </label>
+        <input type="text" class="form-control email" id="lastname"
+            <isprint value="${pdict.contactForm.lastname.attributes}" encoding="off"/>
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>
+    </div>
+    <!--Tipos-->
+    <div class="form-group
+        ${pdict.contactForm.issueType.mandatory === true ? 'required' : ''}
+        ${pdict.contactForm.issueType.htmlName}" >
+        <label class="form-control-label" for="issueType">
+            ${Resource.msg('label.profile.tipo','forms',null)}
+        </label>
+        <input type="text" class="form-control email" id="issueType"
+            <isprint value="${pdict.contactForm.issueType.attributes}" encoding="off"/>
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>
+        <!-- <select type="text" required class="form-control required" id="issueType" name="issueType">
+         
+                                            <option  optionid="vazio" value="" >
+                                                ${Resource.msg('label.profile.geral', 'forms', null)}
+                                            </option>
+                                            <option id="status" value="${Resource.msg('label.profile.status', 'forms', null)}">
+                                                ${Resource.msg('label.profile.status', 'forms', null)}
+                                            </option>
+                                            <option id="minhaConta" value="${Resource.msg('label.profile.my-account', 'forms', null)}">
+                                                ${Resource.msg('label.profile.my-account', 'forms', null)}
+                                            </option>
+                                            <option id="outro" value=" ${Resource.msg('label.profile.topic-other', 'forms', null)}">
+                                                ${Resource.msg('label.profile.topic-other', 'forms', null)}
+                                            </option>
+            <isprint value="${pdict.contactForm.issueType.attributes}" encoding="off"/>
+         </select>-->
+    </div>
+     <!--  <input type="issueType" class="form-control email" id="issueType"
+            <isprint value="${pdict.contactForm.issueType.attributes}" encoding="off"/>
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>-->
+
+    <!--Comentario-->
+
+     <div class="form-group
+        ${pdict.contactForm.comentario.mandatory === true ? 'required' : ''}
+        ${pdict.contactForm.comentario.htmlName}" >
+        <label class="form-control-label" for="comentario">
+            ${Resource.msg('label.profile.comentario','forms',null)}
+        </label>
+        <input type="comentario" class="form-control email" id="comentario"
+            <isprint value="${pdict.contactForm.comentario.attributes}" encoding="off"/>
+        <div class="invalid-feedback" id="emailInvalidMessage"></div>
+    </div>
+    </div>
+    <div class="col-6"></div>
+    </div>
+    <!-- Cancel and Save Buttons -->
+    <div class="row">
+        <div class="col-6">
+            <button type="submit" name="save" class="btn btn-save btn-block btn-primary">${Resource.msg('button.save','account',null)}</button>
+        </div>
+    </div>
+</form>
+</isdecorate>

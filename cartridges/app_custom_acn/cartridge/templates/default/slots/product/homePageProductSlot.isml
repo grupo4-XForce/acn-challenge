@@ -7,7 +7,6 @@
         <div class="col-6 col-sm-4">
             <isinclude url="${URLUtils.url('Tile-Show', 'pid', product.ID, 'pview', 'tile', 'ratings', true, 'swatches', true)}"/>
         </div>
-
         
     </isloop>
 </div>

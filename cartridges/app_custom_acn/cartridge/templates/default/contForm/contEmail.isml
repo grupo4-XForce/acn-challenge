@@ -1,0 +1,6 @@
+<body>
+<h1>${pdict.firstname},${Resource.msg('label.profile.confirmacao','forms',null)}&nbsp;</h1>
+<p><b>${Resource.msg('label.profile.propaganda','forms',null)}</b><a href="${pdict.url}">ACN</a></p>
+
+
+</body>
