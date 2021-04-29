@@ -2,7 +2,7 @@
 
 Site desenvolvido durante o treinamento plataforma SalesForce Abril/2021 apoiado por funcionários Accenture, escola Gama Academy.<br>
 
-### Usando BM e o SFRA, o challenge consistia em um e-commerce para um market de legumes, frutas, temperos e mercearia.<br>
+### Usando BM e o SFRA, o challenge consistia em um e-commerce para um market de legumes, frutas, açougue e mercearia.<br>
 
 O grupo customizou o front end já oferecido pelo SFRA, acrescentando alguns slots.<br><br>
 
