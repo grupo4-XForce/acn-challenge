@@ -1,6 +1,21 @@
 # Storefront Reference Architecture (SFRA) - ACN Challenge/ Accenture
 
-Site desenvolvido durante o treinamento SalesForce Abril/2021 apoiado por funcionários Accenture, escola Gama Academy.<br>
+Site desenvolvido durante o treinamento plataforma SalesForce Abril/2021 apoiado por funcionários Accenture, escola Gama Academy.<br>
+
+### Usando BM e o SFRA, o challenge consistia em um e-commerce para um market de legumes, frutas, temperos e mercearia.<br>
+
+O grupo customizou o front end já oferecido pelo SFRA, acrescentando alguns slots.<br><br>
+
+Criação do site via xml.<xl>
+Tradução do site para Português Brasil via properties.<br>
+Cadastro de categorias e produtos via xml.<br>
+Cadastro de locales, inventory e pricebook via xml.<br>
+Cadastro de métodos de pagamento via xml.<br>
+Funcionalidade de localização de stores físicas via API GoogleMaps.<br>
+Funcionalidade de contato via WhatsApp usando API do WhatsApp.
+Contact Us com email para cliente e operador do SAC.
+Funcionalidade de recomendação via slots.
+
 
 ## Grupo
 
