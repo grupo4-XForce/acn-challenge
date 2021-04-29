@@ -6,6 +6,8 @@ Site desenvolvido durante o treinamento plataforma SalesForce Abril/2021 apoiado
 
 O grupo customizou o front end já oferecido pelo SFRA, acrescentando alguns slots.<br><br>
 
+-------------------------------------------------------------------------------------------------------------------------------------------------<br>
+
 Criação do site via xml.<xl>
 Tradução do site para Português Brasil via properties.<br>
 Cadastro de categorias e produtos via xml.<br>
@@ -33,7 +35,7 @@ https://github.com/icemakegirl
 
 
 
---------------------------------------------------------------------------------------------<br>
+-------------------------------------------------------------------------------------------------------------------------------------------------<br>
 
 This is a repository for the Storefront Reference Architecture reference application.
 
