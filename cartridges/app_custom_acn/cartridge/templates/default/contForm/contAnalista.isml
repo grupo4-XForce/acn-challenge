@@ -1,0 +1,6 @@
+<body>
+<h1>${Resource.msg('label.profile.solicita','forms',null)} </h1>
+<h2>${Resource.msg('label.profile.email','forms',null)} </h2> <p>  ${pdict.email}</p>
+<h2>${Resource.msg('label.profile.tipo','forms',null)}</h2> <p> ${pdict.tipo}</p>
+<h2> ${Resource.msg('label.profile.comentario','forms',null)} </h2> <p>${pdict.comentario}</p>
+</body>
