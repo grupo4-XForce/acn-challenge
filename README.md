@@ -1,4 +1,24 @@
-# Storefront Reference Architecture (SFRA)
+# Storefront Reference Architecture (SFRA) - ACN Challenge/ Accenture
+
+Site desenvolvido durante o treinamento SalesForce Abril/2021 apoiado por funcionários Accenture, escola Gama Academy.<br>
+
+## Grupo
+
+Alline Cardoso<br>
+https://github.com/cardosoalline<br>
+
+Ana Caroline Andrade<br>
+https://github.com/CarolSi-hub<br>
+
+Jéssica Rangel<br>
+https://github.com/rfjessica<br>
+
+Joanne Carneiro<br>
+https://github.com/icemakegirl
+
+
+
+--------------------------------------------------------------------------------------------<br>
 
 This is a repository for the Storefront Reference Architecture reference application.
 
